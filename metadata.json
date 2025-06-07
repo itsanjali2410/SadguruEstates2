@@ -1,0 +1,5 @@
+{
+  "name": "Sadguru Real Estate Platform",
+  "description": "A React-based web application for browsing and discovering real estate properties. Features property listings, filters, blog, and contact information. Built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
