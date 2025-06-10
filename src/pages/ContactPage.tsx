@@ -38,8 +38,8 @@ const ContactPage: React.FC = () => {
                   </svg>
                   Our Office
                 </h3>
-                <p className="mt-1">123 Realty Drive, Suite 100</p>
-                <p>Metropolis, ST 12345</p>
+                <p className="mt-1">Nerul, Navi Mumbai</p>
+                {/* <p>Metropolis, ST 12345</p> */}
               </div>
               <div>
                 <h3 className="text-lg font-medium text-neutral-900 flex items-center">
@@ -48,7 +48,8 @@ const ContactPage: React.FC = () => {
                   </svg>
                   Call Us
                 </h3>
-                <p className="mt-1">(555) 987-6543</p>
+                <p className="mt-1">(+91)8454057780</p>
+                <p className="mt-1">(+91)9867984977</p>
               </div>
               <div>
                 <h3 className="text-lg font-medium text-neutral-900 flex items-center">

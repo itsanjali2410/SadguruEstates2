@@ -7,27 +7,29 @@
   <title>Sadguru Real Estate</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#0D9488', // Teal-600
-            'primary-hover': '#0F766E', // Teal-700
-            secondary: '#F97316', // Orange-500
-            'secondary-hover': '#EA580C', // Orange-600
-            neutral: {
-              100: '#F3F4F6', // Gray-100
-              200: '#E5E7EB', // Gray-200
-              300: '#D1D5DB', // Gray-300
-              700: '#374151', // Gray-700
-              800: '#1F2937', // Gray-800
-              900: '#111827', // Gray-900
-            },
-          }
-        }
-      }
-    }
-  </script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: '#0D9488',
+          'primary-hover': '#0F766E',
+          secondary: '#F97316',
+          'secondary-hover': '#EA580C',
+          neutral: {
+            100: '#F3F4F6',
+            200: '#E5E7EB',
+            300: '#D1D5DB',
+            700: '#374151',
+            800: '#1F2937',
+            900: '#111827',
+          },
+        },
+      },
+    },
+  };
+</script>
+
+
 <script type="importmap">
 {
   "imports": {
@@ -40,7 +42,8 @@
 </script>
 <link rel="stylesheet" href="/index.css">
 </head>
-<body class="bg-neutral-100 text-neutral-800">
+<body class="bg-neutral-100 text-neutral-900">
+
   <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
