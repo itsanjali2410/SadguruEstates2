@@ -12,7 +12,8 @@ const Footer: React.FC = () => {
               Sadguru<span className="text-primary">Estate</span>
             </h3>
             <p className="text-sm">
-              Your trusted partner in finding the perfect property. Explore listings, get market insights, and connect with our expert agents.
+              We are committed to delivering premium residential, commercial, and plot projects across Navi Mumbai. With a focus on quality, transparency, and timely delivery, we help you find the perfect space to live or invest.
+
             </p>
           </div>
 
@@ -35,9 +36,8 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-medium text-white mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm">
-              <li>123 Realty Drive, Suite 100</li>
-              <li>Metropolis, ST 12345</li>
-              <li>Phone: (555) 987-6543</li>
+              <li>Nerul, Navi Mumbai</li>
+              <li>Phone: 8454057780</li>
               <li>Email: info@Sadguruestate.com</li>
             </ul>
 

@@ -5,6 +5,7 @@ import Spinner from '../components/Spinner';
 import { Property } from '../../types';
 import { getFeaturedProperties } from '../../services/propertyService';
 import { Link } from 'react-router-dom';
+import TopProjects from '../components/TopProjects';
 
 const HomePage: React.FC = () => {
   const [featuredProperties, setFeaturedProperties] = useState<Property[]>([]);
@@ -37,6 +38,7 @@ const HomePage: React.FC = () => {
             Featured Properties
           </h2>
           {isLoading && <Spinner />}
+          
           {error && <p className="text-center text-red-500">{error}</p>}
           {!isLoading && !error && featuredProperties.length > 0 && (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -58,6 +60,12 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+      <section className="py-16 bg-gray-100">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <TopProjects />
+  </div>
+</section>
+
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
